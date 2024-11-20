@@ -3,6 +3,9 @@
 # You can run specific with py.test filename
 # you can mark (tag) @pytest.mark.smoke and then run with -m
 # You can skip tests with @pytest.mark.skip
+# @pytest.mark.xfail
+# fixtures are used as setup and tear down methods for test cases - confest file to generalize
+# fixture and make it available to all test cases
 import pytest
 
 
