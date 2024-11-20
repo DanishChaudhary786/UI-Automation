@@ -1,0 +1,6 @@
+2024-11-20 16:43:58,442 : INFO : test_editprofile : ['Danish', 'Chaudhary', 'rahulshettyacademy.com']
+2024-11-20 16:43:58,455 : DEBUG : pytestDemo.test_logging : This is a debug message
+2024-11-20 16:43:58,456 : INFO : pytestDemo.test_logging : This is an info message
+2024-11-20 16:43:58,456 : WARNING : pytestDemo.test_logging : This is a warning message
+2024-11-20 16:43:58,458 : ERROR : pytestDemo.test_logging : This is an error message
+2024-11-20 16:43:58,458 : CRITICAL : pytestDemo.test_logging : This is a critical message

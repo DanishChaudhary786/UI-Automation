@@ -1,0 +1,13 @@
+2024-11-20 16:15:07,741 : INFO : test_logging : This is an info message
+2024-11-20 16:15:07,741 : WARNING : test_logging : This is a warning message
+2024-11-20 16:15:07,742 : ERROR : test_logging : This is an error message
+2024-11-20 16:15:07,742 : CRITICAL : test_logging : This is a critical message
+2024-11-20 16:16:41,861 : DEBUG : test_logging : This is a debug message
+2024-11-20 16:16:41,861 : INFO : test_logging : This is an info message
+2024-11-20 16:16:41,862 : WARNING : test_logging : This is a warning message
+2024-11-20 16:16:41,863 : ERROR : test_logging : This is an error message
+2024-11-20 16:16:41,863 : CRITICAL : test_logging : This is a critical message
+2024-11-20 16:37:56,664 : INFO : pytestDemo.BaseClass : ['Danish', 'Chaudhary', 'rahulshettyacademy.com']
+2024-11-20 16:39:34,117 : INFO : pytestDemo.BaseClass : ['Danish', 'Chaudhary', 'rahulshettyacademy.com']
+2024-11-20 16:42:11,045 : INFO : pytest_pyfunc_call : ['Danish', 'Chaudhary', 'rahulshettyacademy.com']
+2024-11-20 16:42:52,877 : INFO : test_editprofile : ['Danish', 'Chaudhary', 'rahulshettyacademy.com']
