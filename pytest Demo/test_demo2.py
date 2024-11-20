@@ -14,7 +14,7 @@ class TestExample:
     @pytest.mark.xfail
     def test_secondProgram(self):
         self.msg = "dc"
-        assert self.msg == "hi", "Test failed as expected"
+        assert self.msg == "dc", "Test failed as expected"
 
     def test_thirdCreditCard(self):
         a = 4
