@@ -6,6 +6,8 @@
 # @pytest.mark.xfail
 # fixtures are used as setup and tear down methods for test cases - confest file to generalize
 # fixture and make it available to all test cases
+# datadriven and parameterization can be done with return statement in tuple format
+# when you define fixture scope as class then the fixture will be executed once per class
 import pytest
 
 

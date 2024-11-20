@@ -7,3 +7,7 @@ import pytest
 @pytest.mark.smoke
 def test_CreditCard():
     print("Hello")
+
+
+def test_crossBrowser(crossBrowser):
+    print(crossBrowser)
