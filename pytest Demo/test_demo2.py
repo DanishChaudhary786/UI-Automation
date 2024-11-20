@@ -9,19 +9,17 @@
 import pytest
 
 
-@pytest.mark.xfail
-def test_secondProgram():
-    msg = "dc"
-    assert msg == "hi", "Test failed as expected"
-
-
-@pytest.mark.skip
-def test_thirdCreditCard():
-    a = 4
-    b = 6
-    assert a + b == 10, "Addition failed as expected"
-
-
 @pytest.mark.usefixtures("setup")
-def test_fixtureDemo():
-    print("I will execute steps in the fixtureDemo method")
+class TestExample:
+    @pytest.mark.xfail
+    def test_secondProgram(self):
+        self.msg = "dc"
+        assert self.msg == "hi", "Test failed as expected"
+
+    def test_thirdCreditCard(self):
+        a = 4
+        b = 6
+        assert a + b == 10, "Addition failed as expected"
+
+    def test_fixtureDemo(self):
+        print("I will execute steps in the fixtureDemo method")
